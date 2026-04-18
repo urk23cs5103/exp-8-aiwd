@@ -1,0 +1,10 @@
+@@ -0,0 +1,9 @@
+CREATE DATABASE eventdb;
+
+USE eventdb;
+
+CREATE TABLE registrations (
+    regno VARCHAR(20) PRIMARY KEY,
+    name VARCHAR(100),
+    events TEXT
+);
